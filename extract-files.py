@@ -26,7 +26,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/camera.s5e9945.so': blob_fixup()
         .add_needed('libui_shim.so')
         .remove_needed('libcav.so')
-        .remove_needed('vendor.samsung.hardware.thermal@1.0.so'),
+        .remove_needed('vendor.samsung.hardware.thermal@1.0.so')
+        .sig_replace('ba e2 01 94', '1f 20 03 d5')
+        .sig_replace('70 e2 01 94', '1f 20 03 d5'),
 }
 
 module = ExtractUtilsModule(
