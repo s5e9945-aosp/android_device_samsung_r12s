@@ -24,7 +24,9 @@ namespace_imports = [
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/camera.s5e9945.so': blob_fixup()
-        .add_needed('libui_shim.so'),
+        .add_needed('libui_shim.so')
+        .remove_needed('libcav.so')
+        .remove_needed('vendor.samsung.hardware.thermal@1.0.so'),
 }
 
 module = ExtractUtilsModule(
