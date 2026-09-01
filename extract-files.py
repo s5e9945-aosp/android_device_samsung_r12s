@@ -16,6 +16,8 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/samsung/s5e9945',
+    'hardware/samsung_slsi-linaro/exynos',
+    'hardware/samsung_slsi-linaro/graphics',
     'vendor/samsung/s5e9945',
 ]
 
