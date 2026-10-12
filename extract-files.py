@@ -32,7 +32,7 @@ blob_fixups: blob_fixups_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'e1s',
+    'r12s',
     'samsung',
     blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,

@@ -14,13 +14,14 @@
 #
 
 # DTS
-BOARD_DTBO_CFG := device/samsung/e1s/dtbo.cfg
+BOARD_DTBO_CFG := device/samsung/r12s/dtbo.cfg
 
 # Display
+# TODO: properly update to r12s value
 TARGET_SCREEN_DENSITY := 418
 
 # Modules
-BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := mcd-panel-s6e3fae_e1s.ko sec-auth-ds28e30.ko
+BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := mcd-panel-ana6710_a55x.ko mcd-panel-ana6710_r12s.ko sec-auth-ds28e30.ko sec-auth-sle956681.ko
 
 # Inherit from common
 include device/samsung/s5e9945/BoardConfigCommon.mk

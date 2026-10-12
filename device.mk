@@ -17,7 +17,7 @@
 $(call inherit-product, device/samsung/s5e9945/common.mk)
 
 # Inherit from vendor
-$(call inherit-product, vendor/samsung/e1s/e1s-vendor.mk)
+$(call inherit-product, vendor/samsung/r12s/r12s-vendor.mk)
 
 # Fingerprint
 PRODUCT_VENDOR_PROPERTIES += ro.vendor.fingerprint.sensor_location=539|1767|130

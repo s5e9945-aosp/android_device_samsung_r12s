@@ -15,9 +15,9 @@
 #
 
 ## Inherit from e1s device
-$(call inherit-product, device/samsung/e1s/device.mk)
+$(call inherit-product, device/samsung/r12s/device.mk)
 
 # Branding
-PRODUCT_NAME := lineage_e1s
-PRODUCT_DEVICE := e1s
-PRODUCT_MODEL := SM-S921B
+PRODUCT_NAME := lineage_r12s
+PRODUCT_DEVICE := r12s
+PRODUCT_MODEL := SM-S721B

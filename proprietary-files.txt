@@ -14,8 +14,8 @@ vendor/lib64/libeis_interface.so
 vendor/lib64/libvdis_interface.so
 
 # Display - DQE
-vendor/etc/dqe/calib_data_colormode0_s6e3fae_e1.xml
-vendor/etc/dqe/calib_data_colormode0_s6e3fae_e1_hdr.xml
+vendor/etc/dqe/calib_data_atc_ana6710_r12s.xml
+vendor/etc/dqe/calib_data_colormode0_ana6710_r12s_hdr.xml
 
 # Firmware
 vendor/firmware/AIE.bin
@@ -25,16 +25,6 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/firmware/calliope_sram.bin
 vendor/firmware/camera_tilt_calibration_info_1_2
 vendor/firmware/camera_tilt_calibration_info_3_1
-vendor/firmware/cs35l43-bot-dsp1-spk-prot.bin
-vendor/firmware/cs35l43-rcv-dsp1-spk-prot.bin
-vendor/firmware/cs40l26-calib.bin
-vendor/firmware/cs40l26-calib.wmfw
-vendor/firmware/cs40l26-dvl.bin
-vendor/firmware/cs40l26-wt1.bin
-vendor/firmware/cs40l26-wt2.bin
-vendor/firmware/cs40l26-wt3.bin
-vendor/firmware/cs40l26.bin
-vendor/firmware/cs40l26.wmfw
 vendor/firmware/dax_param.bin
 vendor/firmware/kiwi/bdwlan.elf
 vendor/firmware/kiwi/bdwlan.elf1
@@ -44,8 +34,8 @@ vendor/firmware/mfc_fw.bin
 vendor/firmware/os.checked.bin
 vendor/firmware/pablo_icpufw.bin
 vendor/firmware/rear3_dualcal_param.bin
-vendor/firmware/tsp_stm/fts2ba61c_e1.bin
-vendor/firmware/tsp_stm/fts2ba61y_e1s.bin
+vendor/firmware/tsp_goodix/gt9916k_r12s.bin
+vendor/firmware/tsp_synaptics/s3908t_r12s.bin
 vendor/firmware/vts.bin
 
 # Security - TEEGRIS Firmware
