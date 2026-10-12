@@ -11,6 +11,13 @@ vendor/lib64/soundfx/libswspatializer.so
 vendor/lib64/hw/camera.s5e9945.so
 vendor/lib64/libeis_interface.so
 vendor/lib64/libvdis_interface.so
+vendor/firmware/setfile_3j1.bin
+vendor/lib64/libTsAwb_front_3j1.so
+vendor/firmware/setfile_3l6.bin
+vendor/firmware/setfile_gn3.bin
+vendor/firmware/setfile_imx374.bin
+vendor/lib64/libTsAwb_front_imx374.so
+vendor/firmware/setfile_ov08a10.bin
 
 # Display - DQE
 vendor/etc/dqe/calib_data_atc_ana6710_r12s.xml
